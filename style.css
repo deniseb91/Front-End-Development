@@ -1,0 +1,387 @@
+*{ 
+margin:0;
+padding:0;  
+}
+
+body{
+    background-color: rgb(250, 247, 234);
+    font-family: 'Zilla Slab', serif;
+    font: normal 18px 'Zilla Slab', serif;
+    color: #2c2107;
+    width: 100%;
+    line-height: 0%;
+    margin: 0 auto;
+}
+
+.top{
+    background: #eeab00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    flex-direction: row;
+}
+
+footer{
+    line-height: 3em;
+    background-color: #eeab00;
+    width: 100%;
+}
+
+h1{ 
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style:normal; 
+    color: white;
+    text-shadow: 1px 2px 2px rgba(0,0,0,1);
+    margin: auto .5rem auto 1rem;
+}  
+
+h2 { 
+    font-size: .9rem;
+    font-weight:300;
+    font-style: italic;
+    color:white;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+    margin: auto .8rem auto .4rem;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+    padding: 100px 2rem 60px 2rem;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 1rem 3rem;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 1rem 3rem;
+}
+
+a{
+    font: 'Zilla Slab' serif;
+    color: #2c2107;
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    margin:0 auto;
+    padding:0;
+    width:fit-content;
+    overflow: hidden;
+}
+
+header li{
+    display: inline;
+    padding:40px;
+}
+
+footer li{
+    display:inline;
+    padding: 0 40px 0 40px;
+}
+
+header a{
+    color:#2c2107;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: #eeab00;
+    padding: 0 4px;
+    color: white;
+}
+
+header a:active{
+    background-color:#2c2107;
+}
+
+footer a{
+    color:white;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+hr{
+    border-top: 5px solid #eeab00;
+    border-bottom: none;
+    width: 30%;
+    margin: 4rem auto 5rem auto;
+    position: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+
+img{
+    width: 100%; 
+}
+
+.container{
+    position:relative;
+    text-align:center;
+    color:white; 
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFD057;
+    border: 5px solid #eeab00;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,.5);
+    opacity: 80%;
+    padding: 20px 0;
+}
+
+.center a{
+    position:relative;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 100%;
+    text-align: center;
+}
+
+h5 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin: 0 auto 1rem auto;
+    width: fit-content;
+}
+
+.baking{
+    padding: 1rem 1rem;
+    margin: 1rem;
+    border: 2px dashed #eeab00;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: #ffeab4;
+    border: solid 3px #eeab00;
+    padding: 30px 10px;
+    margin: 30px auto;
+    width: fit-content;   
+}
+
+.question{
+     display:flex;
+     width: 85vw;
+     margin: 25px 2px;
+     flex-direction: row;
+}
+
+input, textarea{
+    flex:3;
+    padding: 6px;
+    border:solid 2px #eeab00;
+    border-radius: 5px;
+    background: rgb(250, 247, 234);
+    color: #2c2107;
+}
+
+label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    flex:1;
+    padding: 12px 5px 12px 0;
+    align-self: center;
+}
+
+.buttons{
+    display:flex;
+    width: 50vw;
+    margin: 30px auto;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap:wrap;
+}
+
+button[type=submit]{
+    font-family: 'Zilla Slab', Serif;
+    font-style: bold;
+    font-size: 1rem;
+    background-color: #FFD057;
+    color:#2c2107;
+    border: solid 3px #eeab00;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    float:right;
+    flex:1;
+}
+
+button[type=submit]:hover{
+    background-color: #eeab00;
+}
+
+
+button[type=reset]{
+    font-family: 'Zilla Slab', Serif;
+    font-style: bold;
+    font-size: 1rem;
+    background-color: #ffeab4;
+    color:#2c2107;
+    border: solid 3px #eeab00;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    float: left;
+    flex:1;
+}
+
+button[type=reset]:hover{
+    background-color: #FFD057;
+}
+
+input:focus, textarea:focus{
+    outline: #eeab00 solid 3px;
+    border-radius: 5px;
+}
+
+.desktop-only{
+    display:none;
+}
+
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+ main{
+     margin-top: 60px;
+}
+
+@media (max-width: 1023px){
+    .navbar{
+        display:none;
+    }
+}
+
+@media (min-width: 1024px){
+    .navbar{
+        background-color: #ffeab4;
+        box-shadow: 0 2px 5px rgba(0,0,0,.25);
+        width: 100%;
+        line-height: 3rem;    
+    } 
+    
+    .desktop-only{ 
+        display: block;
+        text-align: center;
+    }  
+    .desktop_flex{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+    .desktop_flex .container{
+        flex:1;
+    }
+    .quote{
+        margin: 7rem auto;
+        width: 800px;
+        font-size: 4rem;
+        font-style: italic;
+        line-height: 7rem;
+    }
+    .center{
+        width:300px;
+        padding: 30px 0;
+    }
+    .center a{
+        font-size:2rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem ;
+    }
+    h3{ 
+        font-size: 2.5rem ;
+    }
+    h4{
+        font-size:2rem;
+        margin: auto;
+        width:fit-content;
+        
+    }
+    h5{
+        font-size:1.8rem;
+        margin: 1rem auto 3rem auto;
+        width: fit-content;
+    }
+    p{
+        font-size: 1.3rem;
+        width: 50vw;
+        padding: 1rem 25vw;
+    }
+    .baking{
+        padding: 3rem;
+        margin: 3rem 8rem;
+    }
+    a:hover{
+        color:#919090;
+    }
+    form{
+        padding: 30px;
+        margin: 60 auto;
+        width: fit-content;
+    }
+    .question{
+        width: 50vw;
+        margin: 30px 30px;
+    }
+    input, textarea{
+        padding: 10px;
+    }
+    label{
+        font-size: 1.4rem;    
+    }
+
+    .button{
+        flex-direction: row;
+        width: 50vw;
+    }
+    main{
+        margin-top: 110px;
+    }
+    footer a{
+        font-size: 1.3rem;
+    }
+    hr{
+        margin: 7rem auto 7rem auto;
+    }
+    .desktop_paragraph{
+        margin: 2.5rem auto;
+    }
+}
