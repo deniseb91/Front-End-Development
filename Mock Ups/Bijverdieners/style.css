@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: rgb(253, 253, 253);
+    background-repeat: no-repeat;
+    background-size:auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    margin: 70px auto;
+    width: 70%;
+}
+
+.navbar ul {
+    position: fixed;
+    top:0;
+    width: 100%;
+    list-style-type: none;
+    background: #c49600;
+    background-image: url(images/Bijen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    text-align:right;
+}
+
+.navbar li{
+    display:inline-block;
+    margin: 0;
+    padding:0;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    width: 200px;
+    display: block;
+    padding: 10px 25px ;
+    margin:0;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color:  rgb(195,150,0, 0.6);
+}
+
+h1{
+    font-size: 90px;
+    margin: 1.5em auto .25em;
+    text-align: center;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+    margin: .2em auto;
+}
+
+h4 {
+    font-size: 25px;
+    margin: .5em auto;
+}
+
+p{
+    padding:1em 11em 2em 11em;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+footer{
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(images/Bijen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 20px;
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.overlay {
+    width: 100%;
+    background-color: rgba(97, 61, 7, 0.4);
+}
+
+.footercontainer{    
+    margin: 0 auto;
+    display:flex;
+    gap: 10px;
+    width: 60%; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#honingpot{
+    height: auto;
+    width:600px;
+}
+
+.honingpot{
+    display: block;
+    margin: 0 auto;
+}
+
+.imkermain{
+    display: block;
+    width:70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.imkerportraits {
+    display:flex;
+    justify-content: center;
+    padding: 0 180px;
+    gap:10px;
+}
+
+.imkerportrait{
+    flex:1;
+    width:30%;
+    height:auto;
+    padding: 0 10px;
+    margin: 0 auto; 
+}
+
+.honeybg {
+    position:fixed;
+    left:65%;
+    bottom: 5%;
+    z-index: -10;
+}
+
+
+.contact{
+    padding: 50px 0;
+    flex:1;
+    text-align: left;   
+}
+
+.adres{
+    padding: 50px 0;
+    flex:1;
+    text-align: center;
+}
+
+.adres p{
+    padding:1em 2em 1em 2em;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.imagecontainer{
+    display:flex;
+    gap:20px;
+    overflow:hidden;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.imker{
+    width:100px;
+    height:auto;
+}
+
+.imagecontainer img{
+   flex:1;
+}
